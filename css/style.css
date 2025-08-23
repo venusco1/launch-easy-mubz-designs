@@ -107,12 +107,45 @@ ol {
 	margin: 0;
 }
 
+
+
+
+
+
+
+.section-title {
+	margin-bottom: 40px;
+	padding-top: 45px;
+	text-align: center;
+}
+
+.section-title span {
+	color: #6ccbcf;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+.section-title h2 {
+	font-size: 42px;
+	color: #111111;
+	line-height: 50px;
+	text-transform: uppercase;
+}
 /*---------------------
   Helper CSS
 -----------------------*/
 
+
+
+
 .section-title {
 	margin-bottom: 40px;
+	padding-top: 45px;
+	text-align: center;
 }
 
 .section-title span {
@@ -158,6 +191,9 @@ ol {
 
 /* buttons */
 
+
+
+
 .primary-btn {
 	display: inline-block;
 	font-size: 16px;
@@ -165,6 +201,8 @@ ol {
 	padding: 16px 50px;
 	color: #ffffff;
 	position: relative;
+	justify-items: center;
+	
 }
 
 .primary-btn.normal-btn {
@@ -1258,7 +1296,7 @@ ol {
 -----------------------*/
 
 .footer {
-	padding-top: 90px;
+	padding-top: 30px;
 }
 
 .footer__top {
@@ -1319,6 +1357,8 @@ ol {
 
 .footer__about {
 	margin-bottom: 30px;
+	margin-left: 35px;
+	margin-top: 40px;
 }
 
 .footer__about .footer__logo {
@@ -1363,6 +1403,8 @@ ol {
 
 .footer__widget {
 	margin-bottom: 30px;
+	margin-top: 40px;
+	
 }
 
 .footer__widget h6 {
@@ -1495,13 +1537,22 @@ ol {
 	overflow: hidden;
 }
 
+@media (min-width: 992px) { /* desktop screens (lg and above) */
+  .about__text {
+    padding: 20px; /* bigger padding on desktop */
+  }
+}
+
+
 .about-page {
-	padding-top: 120px;
-	padding-bottom: 90px;
+	
+	/* padding-bottom: 90px; */
+	margin-top: -10px;
 }
 
 .about__text {
 	padding-top: 80px;
+	text-align: center;
 }
 
 .about__text.about__page__text {
@@ -1514,18 +1565,21 @@ ol {
 
 .about__text .section-title {
 	margin-bottom: 35px;
+	
 }
 
 .about__para__text {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
+	margin-top: -30px;
+	
 }
 
 .about__para__text p {
-	margin-bottom: 26px;
+	margin-bottom: 20px;
 }
 
 .about__para__text p:last-child {
-	margin-bottom: 0;
+	/* margin-bottom: 0; */
 }
 
 .about__pic {
@@ -1558,11 +1612,14 @@ ol {
 
 .services {
 	/* padding-top: 120px; */
-	padding-bottom: 90px;
+	/* padding-bottom: -10px; */
 }
 
 .services.services-page {
 	padding-bottom: 80px;
+}
+.what_we_do {
+	margin-top: 30px;
 }
 
 .services.services-page .services__item p {
@@ -1578,6 +1635,9 @@ ol {
 
 .services__item {
 	margin-bottom: 30px;
+	justify-items: center;
+	margin-top: -20px;
+	
 }
 
 .services__item h4 {
@@ -3138,6 +3198,79 @@ ol {
     font-size: 50px; /* bigger size for desktop */
   }
 }
+
+.title-icons {
+	text-align: center;
+}
+.section-title_who {
+
+}
+.section-title_who {
+	margin-bottom: 40px;
+	padding-top: 45px;
+	text-align: center;
+}
+
+.section-title_who span {
+	color: #6ccbcf;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+.section-title_who h2 {
+	font-size: 42px;
+	color: #111111;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+/*---------------------
+  Helper CSS
+-----------------------*/
+
+
+
+
+.section-title_who {
+	margin-bottom: 40px;
+	padding-top: 45px;
+	text-align: center;
+}
+
+.section-title_who span {
+	color: #6ccbcf;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+.section-title_who h2 {
+	font-size: 42px;
+	color: #111111;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.copyright__widget p {
+  margin: 0; /* remove extra spacing */
+  color: #1697ca; /* normal text color */
+}
+
+.copyright__widget .venusco-link {
+  color: var(--primary-color); /* use your theme’s primary color */
+  text-decoration: none; /* remove underline */
+}
+
+.copyright__widget .venusco-link:hover {
+  text-decoration: underline; /* optional hover effect */
+}
+
 
 
 
